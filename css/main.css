@@ -2,68 +2,101 @@
 
 *{
  
-padding: 1rem;
+
    font-family: "Times New Roman", Times, serif;
  
 }
 
+header{
+
+    border-top-style: solid;
+    border-top-color: hsl(236, 100%, 27%);
+    border-top-width: 2rem;
+    background-image: url("../img/354.jpg");
+	
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 25rem;
+
+    background-size: 100% 100%;
+    color: hsl(236, 100%, 27%);
+    outline-color: white;
+    min-height: 4rem;
+	padding: 0;
+
+}
+
+.mainnav :hover{
+  color: black;}
+.mainnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    overflow: hidden; 
+}
+
+.mainnav li a {
+    display: block;
+    color: white;
+    font-size: 2.2rem;
+	padding-top: 0.5rem;
+	
+}
+
+.mainnav li {
+    float: left;
+	padding-left: 2rem;
+}
+
+h1{
+	padding-left: 2rem;
+	font-size: 5rem;
+	
+}
+
+h2{
+	font-size: 3.5rem;
+	color: hsl(236, 100%, 50%);
+	padding-left: 2rem;
+}
+h3{
+	font-size: 2rem;
+	color: hsl(236, 100%, 50%);
+	padding-left: 2rem;}
 
 body{
-    font-size: 1rem;
+    
     padding-left: 0;
     
 }
-h2
-{3rem;
-color: midnightblue;}
 
-h3{1.5rem;
-color: midnightblue;}
+p{
+	padding-left: 2rem;
+	font-size: 2rem;
+}
+.a {
+	list-style-type: disc;
+}
+.foot{
+	padding-left: 0.5rem;
+
+	font-size: 1.5;
+}
+
+
 
 nav{
-    background-color: dodgerblue;
+    background-color: hsl(236, 95%, 66%);
     min-height: 4rem;
     padding-bottom: 0px;
     padding-left: 0rem;
    
     
 }
-nav :hover{
-  color: black;}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 0;
-    overflow: hidden;
-    
-    
-   
+main {
+	color:hsl(237, 44%, 1%);
 }
 
-li a {
-    display: block;
-    color: white;
-    font-size: 2rem;
-}
 
-li {
-    float: left;
-}
-
-header{
-
-    border-top-style: solid;
-    border-top-color: darkblue;
-    border-top-width: 2rem;
-    background-image: url("../img/354.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fit;
-    background-size: 100% 100%;
-    color: darkblue;
-    outline-color: white;
-    min-height: 4rem;
-
-}
 
 
